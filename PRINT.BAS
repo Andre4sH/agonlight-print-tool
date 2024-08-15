@@ -107,27 +107,27 @@
 
 4000 DEF PROC_PrintMenu
 4001 CLS
-4002 PRINT "----------------------------------------------------------"
-4003 PRINT "AgonLight printing tool version 1"
-4004 PRINT "----------------------------------------------------------"
-4005 PRINT : PRINT "Configuration" 
-4006 PRINT : PRINT "  Printer IP      : " + IP$ 
-4007 PRINT : PRINT "  Port            : " + PORT$ 
-4008 PRINT : PRINT "  Path            : " + PATH$ 
-4009 PRINT : PRINT "  Format          : " + FMT$ 
-4010 PRINT : PRINT "  File to print   : " + FILEPATH$ 
-4011 PRINT : PRINT "  Verbose         : " ;:IF VERBOSE=0 THEN PRINT "FALSE" ELSE PRINT "TRUE" 
-4012 PRINT : PRINT "----------------------------------------------------------" 
-4013 PRINT : PRINT "Options:" 
-4014 PRINT : PRINT "   1. Change printer IP" 
-4015 PRINT : PRINT "   2. Change printer port" 
-4016 PRINT : PRINT "   3. Change printer path" 
-4017 PRINT : PRINT "   4. Change format" 
-4018 PRINT : PRINT "   5. Change filepath" 
-4019 PRINT : PRINT "   6. Change verbose mode" 
-4020 PRINT : PRINT "   7. Save configuration" 
-4021 PRINT : PRINT "  10. Send file to printer" 
-4022 PRINT : PRINT "----------------------------------------------------------"
+4002 PRINT "--------------------------------------------------------------------------------"
+4003 PRINT "                        AgonLight printing tool version 1" : PRINT
+4004 PRINT "--------------------------------------------------------------------------------"
+4005 PRINT : PRINT "  Configuration" 
+4006 PRINT : PRINT "    Printer IP      : " + IP$ 
+4007 PRINT : PRINT "    Port            : " + PORT$ 
+4008 PRINT : PRINT "    Path            : " + PATH$ 
+4009 PRINT : PRINT "    Format          : " + FMT$ 
+4010 PRINT : PRINT "    File to print   : " + FILEPATH$ 
+4011 PRINT : PRINT "    Verbose         : " ;:IF VERBOSE=0 THEN PRINT "FALSE" ELSE PRINT "TRUE" 
+4012 PRINT : PRINT "--------------------------------------------------------------------------------" 
+4013 PRINT : PRINT "  Options:" 
+4014 PRINT : PRINT "     1. Change printer IP" 
+4015 PRINT : PRINT "     2. Change printer port" 
+4016 PRINT : PRINT "     3. Change printer path" 
+4017 PRINT : PRINT "     4. Change format" 
+4018 PRINT : PRINT "     5. Change filepath" 
+4019 PRINT : PRINT "     6. Change verbose mode" 
+4020 PRINT : PRINT "     7. Save configuration" 
+4021 PRINT : PRINT "    10. Send file to printer" 
+4022 PRINT : PRINT "--------------------------------------------------------------------------------"
 4023 PRINT
 4024 ENDPROC
 
