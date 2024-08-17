@@ -1,5 +1,5 @@
 # agonlight-print-tool
-Basic program to print files on your printer.
+BBC Basic program to print files.
 
 # AgonLight Printing Tool
 Welcome to the AgonLight Printing Tool! This program is designed for sending print jobs from the AgonLight computer to a network-connected printer via an ESP8266 module running the ZiModem firmware. Whether you're printing ASCII, PETSCII, or RAW data, this tool allows for flexible and customizable printing configurations.
